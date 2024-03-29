@@ -12,7 +12,7 @@ body{
     background-color: white;
     /* color: white; */
     width: 500px;
-    height: 500px;
+    height: 530px;
     /* display: flex; */
     text-align: center;
     /* align-items: center; */
@@ -23,7 +23,7 @@ body{
 
 .download{
     background-color: aquamarine;
-    height: 25px;
+    height: 20px;
     width: 250px;
     display: flex;
     justify-content: center;
