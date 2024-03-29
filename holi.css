@@ -2,12 +2,12 @@ body{
     position: absolute;
     background-size: 750px 417px;
     z-index: 15;
-    top: 50%;
-    left: 50%;
+    top: 25%;
+    left: 42%;
     display: block;
     margin: -100px 0 0 -150px;
     background: rgb(0, 0, 0);
-    position: fixed;    /* right: 50%; */
+    position: absolute;    /* right: 50%; */
 }
 
 .Bx{
