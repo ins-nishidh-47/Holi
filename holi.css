@@ -2,8 +2,8 @@ body{
     position: absolute;
 
     z-index: 15;
-    top: 45%;
-    left: 40%;
+    top: 25%;
+    left: 47%;
     margin: -100px 0 0 -150px;
     background: rgb(0, 0, 0);
 }
