@@ -23,7 +23,7 @@ body{
 
 .download{
     background-color: aquamarine;
-    height: 20px;
+    height: 25px;
     width: 250px;
     display: flex;
     justify-content: center;
