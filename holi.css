@@ -13,6 +13,7 @@ body{
     align-items: center;
     align-content: center;
     margin-top: 100px;
+    
 
 
 
@@ -27,7 +28,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* display: flex; */
     text-align: center;
     /* align-items: center; */
@@ -46,6 +47,7 @@ body{
     padding: 20px;
     border-radius: 20px;
     text-align: center;
+    /* flex-wrap: wrap; */
 
     /* left: 50px; */
     
