@@ -13,7 +13,6 @@ body{
     align-items: center;
     align-content: center;
     margin-top: 100px;
-    
 
 
 
@@ -24,16 +23,11 @@ body{
     /* color: white; */
     width: 70vmin;
     height: 60vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
     /* display: flex; */
     text-align: center;
     /* align-items: center; */
     /* justify-content: center; */
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 
@@ -47,7 +41,6 @@ body{
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    /* flex-wrap: wrap; */
 
     /* left: 50px; */
     
