@@ -11,8 +11,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* height: 70vmin; */
 
 
 
@@ -21,8 +23,8 @@ body{
 .Bx{
     background-color: white;
     /* color: white; */
-    width: 70vmin;
-    height: 60vmin;
+    width: 100vmin;
+    height: 100%;
     /* display: flex; */
     text-align: center;
     /* align-items: center; */
@@ -41,7 +43,6 @@ body{
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-
     /* left: 50px; */
     
 }
@@ -49,7 +50,5 @@ body{
 a{
     text-decoration: none;
     color: rgb(15, 22, 232);
-    font-weight: 300;
-    font-variant: inherit;
     font-size: 1.1999em;
 }
