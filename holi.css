@@ -1,163 +1,54 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-}
-
-.container {
+body{
+    /* position: absolute; */
+    /* background-size: 750px 417px; */
+    /* z-index: 15; */
+    /* top: 25%; */
+    /* left: 45%; */
+    /* display: block; */
+    /* margin: -100px 0 0 -150px; */
+    background: rgb(0, 0, 0);
+    /* position: absolute;    right: 50%;  */
     display: flex;
-    padding: 20px;
-}
-
-.sidebar {
-    width: 200px;
-    background-color: #fff;
-    padding: 20px;
-    border-right: 1px solid #ddd;
-}
-
-.sidebar h2 {
-    margin-top: 0;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sidebar li {
-    margin-bottom: 10px;
-}
-
-.sidebar li a {
-    display: block;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #333;
-    transition: background-color 0.3s ease;
-}
-
-.sidebar li a:hover {
-    background-color: #eee;
-}
-
-.sidebar li i {
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
     margin-right: 10px;
+    margin-left: 10px;
+    /* height: 70vmin; */
+
+
+
 }
 
-.main-content {
-    flex: 1;
-    padding: 20px;
-}
-
-.main-content h1 {
-    margin-top: 0;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.main-content .card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.main-content .card h2 {
-    margin-top: 0;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.main-content .card p {
-    margin-bottom: 10px;
-}
-
-.main-content .card .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.main-content .card .button:hover {
-    background-color: #0056b3;
-}
-
-.main-content .card .quick-access {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-}
-
-.main-content .card .quick-access .item {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.Bx{
+    background-color: white;
+    /* color: white; */
+    width: 100vmin;
+    height: 100%;
+    /* display: flex; */
     text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border-radius: 10px;
+
 }
 
-.main-content .card .quick-access .item img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-}
-
-.main-content .card .quick-access .item h3 {
-    margin-top: 0;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.main-content .card .quick-access .item p {
-    margin-bottom: 0;
-}
-
-.header {
+.download{
+    background-color: rgb(210, 177, 14);
+    height: 20px;
+    width: 250px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    /* left: 50px; */
+    
 }
 
-.header .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #007bff;
-}
-
-.header .profile {
-    display: flex;
-    align-items: center;
-}
-
-.header .profile img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.header .profile span {
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
+a{
+    text-decoration: none;
+    color: rgb(15, 22, 232);
+    font-size: 1.1999em;
 }
